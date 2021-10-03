@@ -18,7 +18,7 @@ data "azurerm_client_config" "current" {}
 
 #Create Resource Group
 resource "azurerm_resource_group" "tamops" {
-  name     = "atulrg-gitt8
+  name     = "atulrg-gitt8"
   location = "west europe"
 }
 
